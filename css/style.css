@@ -51,10 +51,11 @@ body {
 }
 
 .order {
-    margin: 25px 0;
-    border: solid 2px #4F4F4F;
+    margin: 25px 75px;
     height: fit-content;
     width: fit-content;
+    background-color: beige;
+    border-radius: 10px;
 }
 
 .order .box {
@@ -129,6 +130,26 @@ body {
 .order .info .number .textBox p {
     margin: -2px 0;
     font-size: 18px;
+}
+
+hr {
+    size: 20px;
+}
+
+.order .price {
+    display: flex;
+    flex-direction: column;
+}
+
+.order .price h1 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.order .price h2 {
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .form-check {
