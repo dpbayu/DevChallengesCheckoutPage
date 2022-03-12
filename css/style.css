@@ -24,7 +24,7 @@ body {
 }
 
 .subtitle {
-    margin-top: 25px;
+    margin: 25px 0;
 }
 
 .subtitle h2 {
@@ -48,4 +48,15 @@ body {
     top: 0;
     left: 0;
     padding: 38px 10px;
+}
+
+.form-check {
+    margin: 25px 0;
+}
+
+.form-check label {
+    font-weight: 600;
+    font-size: 12px;
+    color: #4F4F4F;
+    transform: rotate(-0.02deg);
 }
