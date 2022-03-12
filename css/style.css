@@ -50,6 +50,34 @@ body {
     padding: 38px 10px;
 }
 
+.box {
+    margin: 25px 0;
+    border: solid 2px #4F4F4F;
+    height: fit-content;
+}
+
+.box .text-1 h1 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #4E5150;
+    transform: rotate(-0.02deg);
+}
+
+.box .text-2 h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #F2994A;
+    transform: rotate(-0.02deg);
+}
+
+.box .text-3 h3 {
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+    transform: rotate(-0.02deg);
+}
+
 .form-check {
     margin: 25px 0;
 }
@@ -59,4 +87,12 @@ body {
     font-size: 12px;
     color: #4F4F4F;
     transform: rotate(-0.02deg);
+}
+
+.btn {
+    margin-bottom: 25px;
+    width: 20%;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
 }
