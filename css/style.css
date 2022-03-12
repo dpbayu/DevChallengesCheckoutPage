@@ -50,32 +50,45 @@ body {
     padding: 38px 10px;
 }
 
-.box {
+.order {
     margin: 25px 0;
     border: solid 2px #4F4F4F;
     height: fit-content;
+    width: fit-content;
 }
 
-.box .text-1 h1 {
+.order .text-1 h1 {
     font-weight: 600;
     font-size: 16px;
     color: #4E5150;
     transform: rotate(-0.02deg);
 }
 
-.box .text-2 h2 {
+.order .text-2 h2 {
     font-weight: 600;
     font-size: 16px;
     color: #F2994A;
     transform: rotate(-0.02deg);
 }
 
-.box .text-3 h3 {
+.order .text-3 h3 {
     font-weight: 600;
     font-size: 12px;
     text-decoration-line: line-through;
     color: #4E5150;
     transform: rotate(-0.02deg);
+}
+
+.order .text-4 h4 {
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration-line: line-through;
+    color: #4E5150;
+    transform: rotate(-0.02deg);
+}
+
+.order .box {
+    display: flex;
 }
 
 .form-check {
