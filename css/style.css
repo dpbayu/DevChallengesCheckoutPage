@@ -57,21 +57,47 @@ body {
     width: fit-content;
 }
 
-.order .text-1 h1 {
+.order .box {
+    display: flex;
+    width: 100%;
+}
+
+.order .box .img {
+    margin: 20px;
+}
+
+.order .box img {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.order .info {
+    margin: 20px 10px;
+}
+
+.order .info h4 {
     font-weight: 600;
     font-size: 16px;
     color: #4E5150;
     transform: rotate(-0.02deg);
 }
 
-.order .text-2 h2 {
+.order .info .text {
+    position: relative;
+}
+
+.order .info .text p {
     font-weight: 600;
     font-size: 16px;
     color: #F2994A;
     transform: rotate(-0.02deg);
 }
 
-.order .text-3 h3 {
+.order .info .text span {
+    position: absolute;
+    top: 2px;
+    left: 75px;
     font-weight: 600;
     font-size: 12px;
     text-decoration-line: line-through;
@@ -79,16 +105,29 @@ body {
     transform: rotate(-0.02deg);
 }
 
-.order .text-4 h4 {
-    font-weight: 600;
-    font-size: 12px;
-    text-decoration-line: line-through;
-    color: #4E5150;
-    transform: rotate(-0.02deg);
-}
-
-.order .box {
+.order .info .number {
     display: flex;
+    text-align: -webkit-center;
+    align-items: end;
+    margin-top: 50px;
+}
+
+.order .info .number .textBox {
+    background-color: aqua;
+    border-radius: 5px;
+    width: 20px;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+}
+
+.order .info .number .textSpecial p {
+    height: 10px;
+}
+
+.order .info .number .textBox p {
+    margin: -2px 0;
+    font-size: 18px;
 }
 
 .form-check {
