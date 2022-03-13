@@ -1,5 +1,48 @@
 @media only screen and (max-width: 768px) {
+
+    .data svg {
+        height: 20px;
+    }
+
+    .data input {
+        font-size: 12px;
+    }
+
     .order {
         margin: 0;
+        width: 100%;
+    }
+
+    .order .box img {
+        border-radius: 10px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .order .info h4 {
+        font-size: 14px;
+    }
+
+    .order .info .text p {
+        font-size: 12px;
+    }
+
+    .order .info .text span {
+        top: 1px;
+        left: 75px;
+        font-size: 10px;
+        text-decoration-line: line-through;
+    }
+
+    .order .info .number {
+        margin-top: 15px;
+    }
+
+    .order .price h1 {
+        font-size: 14px;
+    }
+
+    .order .price h2 {
+        font-size: 12px;
     }
 }
