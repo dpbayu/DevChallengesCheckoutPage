@@ -16,6 +16,10 @@ body {
     margin: 25px 0;
 }
 
+.row {
+    flex-flow: wrap-reverse;
+}
+
 .title h1 {
     font-weight: 600;
     font-size: 36px;
