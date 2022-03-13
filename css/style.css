@@ -170,7 +170,7 @@ hr {
 
 .btn {
     margin-bottom: 25px;
-    width: 20%;
+    width: fit-content;
     font-weight: 600;
     font-size: 16px;
     color: #FFFFFF;
