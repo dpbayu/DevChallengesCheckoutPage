@@ -34,7 +34,6 @@ body {
 .subtitle h2 {
     font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
     color: #333333;
     transform: rotate(-0.02deg);
 }
@@ -52,6 +51,12 @@ body {
     top: 0;
     left: 0;
     padding: 38px 10px;
+}
+
+.data input {
+    font-weight: 600;
+    font-size: 16px;
+    color: #828282;
 }
 
 .order {
