@@ -37,8 +37,8 @@
 
 ## Overview
 
-![Checkout-Page (1)](https://user-images.githubusercontent.com/74140729/158057125-7657c541-d06a-4243-8ee2-c8bacd0bb702.png)
 ![Checkout-Page](https://user-images.githubusercontent.com/74140729/158057129-3b113a97-17e8-4e1e-ae96-22cf2b3cf56f.png)
+![Checkout-Page (1)](https://user-images.githubusercontent.com/74140729/158057125-7657c541-d06a-4243-8ee2-c8bacd0bb702.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
